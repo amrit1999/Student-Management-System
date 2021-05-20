@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/amrit/Desktop/PlayFramework/Student-Management-System/app/controllers/StudentsController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable student[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.StudentsController[0m
+[0m[[0m[31merror[0m] [0m[0mstudent[0m

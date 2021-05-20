@@ -1,0 +1,11 @@
+@(student: Student)
+
+@layout(student.name){
+  <a href="#">Name: @student.name</a>
+  <p> Age: @student.age </p>
+  <p> Branch: @student.branch </p>
+  <p> Marks: @student.marks </p>
+
+  <a href="@routes.StudentsController.edit(student.id)">Edit</a>
+  <a href="@routes.StudentsController.destroy(student.id)">Delete</a>
+}
